@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <fieldset>
+       <legend>Biodata </legend> 
+       <form action="./response.html">
+<label for="name">Username:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        <br><br>
+        <label for="password">Password:</label>
+    <input type="password" name="password" id="password">
+    <br><br>
+    <label for="dob">Date of Birth:</label>
+    <input type="date" name="date" id="dob">
+    <br><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" name="gender" id="male"><label for="male">Male</label>
+    <input type="radio" name="gender" id="female"><label for="female">Female</label>
+    <br><br>
+    <label for="lang">Select Language:</label>
+    <select name="lang" id="lang">
+        <option value="select">Select</option>
+        <option value="Java">Java</option>
+        <option value="Python">Python</option>
+        <option value="C++">C++</option>
+        <option value="JavaScript">JavaScript</option>
+    </select>
+    <br><br>
+    <label for="hobbies">Hobbies:</label>
+    <input type="checkbox" name="hobb1" id="hobb"><label for="hobb">Cricket</label>
+    <input type="checkbox" name="hobb2" id="hobb"><label for="hobb">football</label>
+    <br><br>
+    <label for="address">Address:</label>
+    <textarea name="address" id="address"></textarea>
+    <br><br>
+    <label for="tel">Phone:</label>
+    <input type="tel" name="tel" id="tel">
+    <br><br>
+    <label for="email">Email:</label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    <label for="attempt">Attempts:</label>
+    <input type="number" name="attempt" id="attempt">
+    <br><br>
+    <label for="url">Homepage:</label>
+    <input type="url" name="url" id="url">
+    <br><br>
+<label for="file">Resume upload:</label>
+    <input type="file" name="file" id="file">
+    <br><br>
+    
+    <input type="submit">
+    <input type="reset">
+
+
+       </form>
+    </fieldset>
+
+</body>
+</html>
